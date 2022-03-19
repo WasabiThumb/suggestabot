@@ -24,3 +24,11 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class': 'codes.wasabi.suggestbot.Main'
+        )
+    }
+}
